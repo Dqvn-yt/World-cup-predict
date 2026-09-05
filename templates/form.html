@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Player Form · Football Analytics AI{% endblock %}
+{% block content %}
+<section class="page-head section-shell"><span class="eyebrow">Algorithm 01</span><h1>Position-aware form</h1><p>Weighted, normalized ratings compare players only against the demands of their own position, adjusted for total playing time.</p></section>
+<section class="section-shell">
+  <div class="tabs"><a class="{% if not position %}active{% endif %}" href="{{ url_for('form_leaderboard') }}">Overall</a>{% for item in ['FWD','MID','DEF','GK'] %}<a class="{% if position == item %}active{% endif %}" href="{{ url_for('form_leaderboard', position=item) }}">{{ item }}</a>{% endfor %}</div>
+  <form class="card filter-bar" method="get"><input type="hidden" name="position" value="{{ position }}"><label>Status <select name="status"><option value="">All</option>{% for item in ['High','Medium','Low','Provisional'] %}<option value="{{ item }}" {% if status == item %}selected{% endif %}>{{ item }}</option>{% endfor %}</select></label><label>Min minutes <input type="number" name="min_minutes" value="{{ min_minutes if min_minutes else '' }}" min="0" step="30"></label><button class="button button-ghost" type="submit">Apply</button></form>
+  <div class="table-wrap"><table><thead><tr><th>Rank</th><th>Player</th><th>Position</th><th>Form</th><th>Position</th><th>Recent</th><th>Minutes</th><th>Confidence</th><th>Status</th><th>Class</th><th>Trend</th></tr></thead><tbody>{% for player in players %}<tr><td class="rank">{{ "%02d"|format(loop.index) }}</td><td><a href="{{ url_for('player_detail', player_id=player.player_id) }}"><strong>{{ player.player_name }}</strong></a></td><td>{{ player.position }}</td><td><b>{{ player.form_score|num(1) }}</b></td><td>{{ player.position_score|num(1) }}</td><td>{{ player.recent_form_score|num(1) }}</td><td>{{ player.minutes_played }}</td><td>{{ player.form_confidence|num(2) }}</td><td>{{ player.sample_status }}</td><td>{{ player.form_class }}</td><td>{{ player.form_trend }}</td></tr>{% endfor %}</tbody></table></div>
+</section>
+{% endblock %}

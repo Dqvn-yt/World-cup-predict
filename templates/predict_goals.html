@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Goal Probability · Football Analytics AI{% endblock %}
+{% block content %}
+<section class="page-head section-shell"><span class="eyebrow">Algorithm 03</span><h1>Goal probability</h1><p>Balanced logistic regression ranks every registered player by probability of scoring at least once.</p></section>
+<section class="section-shell"><form class="filter-bar compact" method="get"><select name="match_id">{% for match in matches %}<option value="{{ match.match_id }}" {% if selected_match == match.match_id %}selected{% endif %}>#{{ match.match_id }} · {{ match.home_team_name }} vs {{ match.away_team_name }}</option>{% endfor %}</select><button class="button button-primary">Load match</button></form>
+  <div class="table-wrap"><table><thead><tr><th>Rank</th><th>Player</th><th>Pos</th><th>XI</th><th>Current form</th><th>Goals last 3</th><th>Team xG</th><th>Goal probability</th></tr></thead><tbody>{% for player in predictions %}<tr><td class="rank">{{ "%02d"|format(loop.index) }}</td><td><a href="{{ url_for('player_detail', player_id=player.player_id) }}"><strong>{{ player.player_name }}</strong></a></td><td>{{ player.position }}</td><td>{{ 'Yes' if player.is_starting_xi else 'No' }}</td><td>{{ player.predictive_form|num(1) }}</td><td>{{ player.goals_last3|num(0) }}</td><td>{{ player.team_predicted_xg|num }}</td><td><span class="form-pill">{{ player.goal_probability|pct }}</span></td></tr>{% endfor %}</tbody></table></div>
+</section>
+{% endblock %}

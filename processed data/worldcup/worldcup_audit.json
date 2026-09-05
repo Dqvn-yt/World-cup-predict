@@ -1,0 +1,82 @@
+{
+  "sources": {
+    "2018": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json",
+    "2022": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json"
+  },
+  "license": "Open data, public domain (openfootball worldcup.json)",
+  "normalized_at_utc": "2026-09-05T09:51:59+00:00",
+  "retrieved_at_utc": null,
+  "retrieval_note": "Raw cache retained; original retrieval timestamp unknown. Hashes identify exact input bytes.",
+  "raw_files": {
+    "2018": {
+      "path": "raw\\2018_worldcup.json",
+      "sha256": "6af380e875cc52fe12073ab7862fbe8d3e5505ee029cb84d8b5480bf6d603d11"
+    },
+    "2022": {
+      "path": "raw\\2022_worldcup.json",
+      "sha256": "f4f0499c30076bc8e3702f400765900797fb22212a32aaa8137e1dfc49449a68"
+    }
+  },
+  "training_integration": "Result-only 90-minute Dixon-Coles training and chronological OOF/cold-start priors via score_history; no historical ML/player features",
+  "tournaments": {
+    "2018": {
+      "total_matches": 64,
+      "stage_counts": {
+        "Matchday": 48,
+        "Round of 16": 8,
+        "Quarter-finals": 4,
+        "Semi-finals": 2,
+        "Match for third place": 1,
+        "Final": 1
+      },
+      "stage_counts_ok": true,
+      "final": "France 4-2 Croatia",
+      "champion_ok": true,
+      "missing_ft_scores": 0,
+      "negative_scores": 0,
+      "matches_with_both_teams_mapped": 64,
+      "scorer_list_mismatches": [],
+      "credited_team_score_mismatches": []
+    },
+    "2022": {
+      "total_matches": 64,
+      "stage_counts": {
+        "Matchday": 48,
+        "Round of 16": 8,
+        "Quarter-finals": 4,
+        "Semi-finals": 2,
+        "Match for third place": 1,
+        "Final": 1
+      },
+      "stage_counts_ok": true,
+      "final": "Argentina 2-2 France",
+      "champion_ok": true,
+      "missing_ft_scores": 0,
+      "negative_scores": 0,
+      "matches_with_both_teams_mapped": 64,
+      "scorer_list_mismatches": [],
+      "credited_team_score_mismatches": []
+    }
+  },
+  "mapped_teams": 30,
+  "historical_identity_coverage": 40,
+  "new_historical_ids": 10,
+  "unmapped_teams": [
+    "Cameroon",
+    "Costa Rica",
+    "Denmark",
+    "Iceland",
+    "Nigeria",
+    "Peru",
+    "Poland",
+    "Russia",
+    "Serbia",
+    "Wales"
+  ],
+  "history_matches_both_mapped": 128,
+  "history_total_matches": 128,
+  "unique_match_ids": 128,
+  "existing_match_id_collisions": 0,
+  "goal_events": 341,
+  "unresolved_player_events": 341
+}

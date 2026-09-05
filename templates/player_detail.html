@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ player.player_name }} · Football Analytics AI{% endblock %}
+{% block content %}
+<section class="player-hero section-shell">
+  <div><span class="position-tag">{{ player.position }}</span><h1>{{ player.player_name }}</h1><p>{{ player.club_team }} · Team {{ player.team_id }} · {{ player.caps }} international caps</p></div>
+  <div class="form-orbit"><strong>{{ player.form_score|num(1) }}</strong><span>Overall form</span><small>{{ player.form_class }} · {{ player.sample_status }} sample · confidence {{ player.form_confidence|num(2) }}</small></div>
+</section>
+<section class="section-shell stat-grid">
+  <article class="stat-card"><small>Position score</small><strong>{{ player.position_score|num(1) }}</strong><span>vs {{ player.position }} peers</span></article>
+  <article class="stat-card"><small>Recent form</small><strong>{{ player.recent_form_score|num(1) }}</strong><span>last 3 appearances</span></article>
+  <article class="stat-card"><small>Availability</small><strong>{{ player.availability_score|num(1) }}</strong><span>{{ player.minutes_played }} of {{ player.appearances }} apps</span></article>
+  <article class="stat-card"><small>Team context</small><strong>{{ player.team_context_score|num(1) }}</strong><span>{{ (player.team_contribution_share * 100)|num(0) }}% team contribution</span></article>
+</section>
+<section class="section-shell stat-grid">
+  <article class="stat-card"><small>Goals</small><strong>{{ player.goals }}</strong><span>{{ player.goals_per90|num }} per 90</span></article>
+  <article class="stat-card"><small>Assists</small><strong>{{ player.assists }}</strong><span>{{ player.assists_per90|num }} per 90</span></article>
+  <article class="stat-card"><small>Minutes</small><strong>{{ player.minutes_played }}</strong><span>{{ player.matches_started }} starts</span></article>
+  <article class="stat-card"><small>Current trend</small><strong class="text-small">{{ player.form_trend }}</strong><span>{{ player.form_delta|num }} change</span></article>
+</section>
+<section class="section-shell chart-card card">
+  <div class="section-heading"><div><span class="eyebrow">Leak-safe history</span><h2>Predictive form trend</h2></div></div>
+  <canvas id="formChart" height="100"></canvas>
+</section>
+<section class="section-shell"><h2>Recent appearances</h2><div class="table-wrap"><table><thead><tr><th>Match</th><th>Date</th><th>Minutes</th><th>Goals</th><th>Assists</th><th>Pre-match form</th><th>Trend</th></tr></thead><tbody>{% for row in history|reverse %}<tr><td>#{{ row.match_id }}</td><td>{{ row.date }}</td><td>{{ row.minutes_played }}</td><td>{{ row.goals }}</td><td>{{ row.assists }}</td><td>{{ row.predictive_form|num }}</td><td>{{ row.form_trend }}</td></tr>{% endfor %}</tbody></table></div></section>
+{% endblock %}
+{% block scripts %}<script>window.renderFormChart('formChart', {{ history|map(attribute='date')|list|tojson }}, {{ history|map(attribute='predictive_form')|list|tojson }});</script>{% endblock %}

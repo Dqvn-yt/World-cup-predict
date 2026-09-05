@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Players · Football Analytics AI{% endblock %}
+{% block content %}
+<section class="page-head section-shell"><span class="eyebrow">1,248 player profiles</span><h1>Player database</h1><p>Search, filter and rank performance within each positional group.</p></section>
+<section class="section-shell">
+  <form class="filter-bar" method="get">
+    <input type="search" name="q" value="{{ query }}" placeholder="Search player">
+    <select name="position"><option value="">All positions</option>{% for item in ['FWD','MID','DEF','GK'] %}<option value="{{ item }}" {% if position == item %}selected{% endif %}>{{ item }}</option>{% endfor %}</select>
+    <select name="team_id"><option value="">All teams</option>{% for id, name in teams %}<option value="{{ id }}" {% if selected_team == id %}selected{% endif %}>{{ name }}</option>{% endfor %}</select>
+    <select name="sort"><option value="form_score" {% if sort == 'form_score' %}selected{% endif %}>Form score</option><option value="goals" {% if sort == 'goals' %}selected{% endif %}>Goals</option><option value="goals_per90" {% if sort == 'goals_per90' %}selected{% endif %}>Goals / 90</option><option value="minutes_played" {% if sort == 'minutes_played' %}selected{% endif %}>Minutes</option></select>
+    <button class="button button-primary" type="submit">Apply</button>
+  </form>
+  <div class="player-grid">
+    {% for player in players %}
+    <a class="player-card card" href="{{ url_for('player_detail', player_id=player.player_id) }}">
+      <div class="player-card-top"><span class="position-tag">{{ player.position }}</span><span class="trend trend-{{ player.form_trend|lower }}">{{ player.form_trend }}</span></div>
+      <h3>{{ player.player_name }}</h3><p>Team {{ player.team_id }} · {{ player.club_team }}</p>
+      <div class="metric-row"><span><small>Form</small><b>{{ player.form_score|num(1) }}</b></span><span><small>Goals</small><b>{{ player.goals }}</b></span><span><small>G/90</small><b>{{ player.goals_per90|num }}</b></span></div>
+    </a>
+    {% else %}<div class="empty-state">No players match these filters.</div>{% endfor %}
+  </div>
+</section>
+{% endblock %}

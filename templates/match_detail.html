@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{ prediction.home_team_name }} vs {{ prediction.away_team_name }}{% if is_scenario %} · Scenario{% endif %}{% endblock %}
+{% block content %}
+<section class="match-hero section-shell">
+  <span class="eyebrow">{% if is_scenario %}Algorithm 02 · Team scenario · {{ prediction.match_profile }} · {{ prediction.confidence }} confidence{% else %}Algorithm 02 · Dixon-Coles ensemble · {{ prediction.match_profile }} · {{ prediction.confidence }} confidence{% endif %}</span>
+  <div class="versus large"><strong>{{ prediction.home_team_name }}</strong><div class="score">{{ prediction.predicted_home_goals }}<span>:</span>{{ prediction.predicted_away_goals }}</div><strong>{{ prediction.away_team_name }}</strong></div>
+  {% if is_scenario %}<p>Team-scenario forecast for 90 minutes plus stoppage time; excludes extra time and shootouts. There is no actual result or registered lineup for this hypothetical fixture.</p>{% else %}<p>Most likely 90-minute score{% if prediction.actual_home_score is not none %} · Actual 90-minute result: {{ prediction.actual_home_score }} : {{ prediction.actual_away_score }}{% endif %}. Includes stoppage time; excludes extra time and shootouts.</p>{% endif %}
+</section>
+<section class="section-shell stat-grid three">
+  <article class="stat-card"><small>Most likely score</small><strong>{{ prediction.predicted_home_goals }} : {{ prediction.predicted_away_goals }}</strong></article>
+  <article class="stat-card"><small>Expected total goals</small><strong>{{ prediction.expected_total_goals|num }}</strong></article>
+  <article class="stat-card"><small>Prediction source</small><strong class="text-small">{{ prediction.source_model or prediction.source }}</strong></article>
+</section>
+<section class="section-shell card prediction-panel">
+  <h2>Win / draw / loss</h2><div class="wdl-bars"><div><span>Home win</span><i style="width:{{ prediction.home_win_probability * 100 }}%"></i><b>{{ prediction.home_win_probability|pct }}</b></div><div><span>Draw</span><i style="width:{{ prediction.draw_probability * 100 }}%"></i><b>{{ prediction.draw_probability|pct }}</b></div><div><span>Away win</span><i style="width:{{ prediction.away_win_probability * 100 }}%"></i><b>{{ prediction.away_win_probability|pct }}</b></div></div>
+  <div class="probability-strip"><span>1X {{ prediction.double_chance.home_or_draw|pct }}</span><span>12 {{ prediction.double_chance.home_or_away|pct }}</span><span>X2 {{ prediction.double_chance.draw_or_away|pct }}</span></div>
+</section>
+<section class="section-shell stat-grid four">
+  <article class="stat-card"><small>Over 1.5 goals</small><strong>{{ prediction.over_under['1.5']|pct }}</strong></article>
+  <article class="stat-card"><small>Over 2.5 goals</small><strong>{{ prediction.over_under['2.5']|pct }}</strong></article>
+  <article class="stat-card"><small>Over 3.5 goals</small><strong>{{ prediction.over_under['3.5']|pct }}</strong></article>
+  <article class="stat-card"><small>Both teams score</small><strong>{{ prediction.both_teams_to_score|pct }}</strong></article>
+</section>
+<section class="section-shell stat-grid four">
+  <article class="stat-card"><small>Home scores 2+</small><strong>{{ prediction.home_goals_market.scores_2_plus|pct }}</strong></article>
+  <article class="stat-card"><small>Away scores 2+</small><strong>{{ prediction.away_goals_market.scores_2_plus|pct }}</strong></article>
+  <article class="stat-card"><small>Home clean sheet</small><strong>{{ prediction.home_clean_sheet_probability|pct }}</strong></article>
+  <article class="stat-card"><small>Away clean sheet</small><strong>{{ prediction.away_clean_sheet_probability|pct }}</strong></article>
+</section>
+<section class="section-shell card prediction-panel">
+  <h2>Total goals distribution</h2>
+  <div class="wdl-bars">{% for goals, probability in prediction.total_goals_distribution.items() %}<div><span>{{ goals }} goals</span><i style="width:{{ probability * 100 }}%"></i><b>{{ probability|pct }}</b></div>{% endfor %}</div>
+  <h2>Winning margins</h2>
+  <div class="probability-strip"><span>Home by 1 {{ prediction.win_margins.home_by_1|pct }}</span><span>Home by 2+ {{ prediction.win_margins.home_by_2_plus|pct }}</span><span>Away by 1 {{ prediction.win_margins.away_by_1|pct }}</span><span>Away by 2+ {{ prediction.win_margins.away_by_2_plus|pct }}</span></div>
+</section>
+<section class="section-shell comparison-board card">
+  <div class="section-heading"><div><span class="eyebrow">Team comparison</span><h2>Strength by line</h2></div></div>
+  <div class="comparison-row"><span>Elo rating</span><b>{{ prediction.comparison.home_elo|num(0) }}</b><b>{{ prediction.comparison.away_elo|num(0) }}</b></div>
+  <div class="comparison-row"><span>FIFA rank</span><b>{{ prediction.comparison.home_fifa_rank|num(0) }}</b><b>{{ prediction.comparison.away_fifa_rank|num(0) }}</b></div>
+  <div class="comparison-row"><span>Attack strength</span><b>{{ prediction.comparison.home_attack_strength|num(2) }}</b><b>{{ prediction.comparison.away_attack_strength|num(2) }}</b></div>
+  <div class="comparison-row"><span>Defense strength</span><b>{{ prediction.comparison.home_defense_strength|num(2) }}</b><b>{{ prediction.comparison.away_defense_strength|num(2) }}</b></div>
+  <div class="comparison-row"><span>Points per game</span><b>{{ prediction.comparison.home_team_ppg|num(2) }}</b><b>{{ prediction.comparison.away_team_ppg|num(2) }}</b></div>
+</section>
+<section class="section-shell matrix-layout">
+  <article class="card"><h2>Score probability matrix</h2><div class="score-matrix" style="--columns: {{ prediction.max_goals + 1 }}">{% for row in prediction.matrix %}{% for value in row %}<span style="--heat:{{ value * 5 }}">{{ value|pct }}</span>{% endfor %}{% endfor %}</div><small>Rows: home goals 0–{{ prediction.max_goals }} · Columns: away goals 0–{{ prediction.max_goals }} · Tail beyond grid: {{ prediction.tail_probability|pct }}</small></article>
+  <article class="card"><h2>Most likely scores</h2><div class="top-scores">{% for score in prediction.top_scorelines %}<div><b>{{ score.home_goals }} : {{ score.away_goals }}</b><span>{{ score.probability|pct }}</span></div>{% endfor %}</div></article>
+</section>
+{% if is_scenario %}<section class="section-shell"><div class="section-heading"><div><span class="eyebrow">Squad input</span><h2>No registered lineup</h2></div></div><div class="card"><p>Goal threats and lineups need an existing fixture because a team scenario does not select players. All score, market, comparison and matrix outputs above use the same team-scenario prediction.</p></div></section>{% else %}<section class="section-shell"><div class="section-heading"><div><span class="eyebrow">Algorithm 03</span><h2>Top goal threats</h2></div></div><div class="threat-list card">{% for player in threats %}<a class="threat-row" href="{{ url_for('player_detail', player_id=player.player_id) }}"><span>{{ player.player_name }}<small>{{ player.position }} · Form {{ player.predictive_form|num(1) }}</small></span><strong>{{ player.goal_probability|pct }}</strong></a>{% endfor %}</div></section>
+<section class="section-shell lineup-section"><div class="section-heading"><div><span class="eyebrow">Starting XI</span><h2>Pre-match player form</h2></div></div><div class="lineup-grid"><article class="card"><h3>{{ prediction.home_team_name }}</h3>{% for player in home_lineup %}<a class="lineup-row" href="{{ url_for('player_detail', player_id=player.player_id) }}"><span>{{ player.position }}</span><strong>{{ player.player_name }}</strong><b>{{ player.predictive_form|num(1) }}</b></a>{% endfor %}</article><article class="card"><h3>{{ prediction.away_team_name }}</h3>{% for player in away_lineup %}<a class="lineup-row" href="{{ url_for('player_detail', player_id=player.player_id) }}"><span>{{ player.position }}</span><strong>{{ player.player_name }}</strong><b>{{ player.predictive_form|num(1) }}</b></a>{% endfor %}</article></div></section>{% endif %}
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Matches · Football Analytics AI{% endblock %}
+{% block content %}
+<section class="page-head section-shell"><span class="eyebrow">104 tournament matches</span><h1>Match centre</h1><p>Browse actual results and open the pre-match model view for every fixture.</p></section>
+<section class="section-shell">
+  <form class="filter-bar compact" method="get"><select name="stage"><option value="">All stages</option>{% for row in stages %}<option value="{{ row.stage_id }}" {% if selected_stage == row.stage_id|string %}selected{% endif %}>Stage {{ row.stage_id }}{% if row.is_knockout %} · Knockout{% endif %}</option>{% endfor %}</select><button class="button button-primary">Filter</button></form>
+  <div class="match-list">{% for match in matches %}<a class="match-row card" href="{{ url_for('match_detail', match_id=match.match_id) }}"><span class="match-meta">{{ match.date }}<small>Stage {{ match.stage_id }}</small></span><strong>{{ match.home_team_name }}</strong><span class="actual-score">{{ match.home_score }} : {{ match.away_score }}</span><strong>{{ match.away_team_name }}</strong><span class="arrow">→</span></a>{% endfor %}</div>
+</section>
+{% endblock %}

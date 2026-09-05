@@ -1,0 +1,342 @@
+match_id,goal_event_id,credited_team_id,scorer_team_id,player_id,player_identity_status,source_url,tournament,match_no,date,team,scorer,minute,penalty,own_goal
+2018001,wc2018-1-1,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,1,2018-06-14,Russia,Gazinsky,12,0,0
+2018001,wc2018-1-2,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,1,2018-06-14,Russia,Cheryshev,43,0,0
+2018001,wc2018-1-3,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,1,2018-06-14,Russia,Dzyuba,71,0,0
+2018001,wc2018-1-4,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,1,2018-06-14,Russia,Cheryshev,90+1,0,0
+2018001,wc2018-1-5,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,1,2018-06-14,Russia,Golovin,90+4,0,0
+2018002,wc2018-2-1,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,2,2018-06-15,Uruguay,Giménez,89,0,0
+2018003,wc2018-3-1,10007,26,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,3,2018-06-19,Russia,A. Fathi,47,0,1
+2018003,wc2018-3-2,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,3,2018-06-19,Russia,Cheryshev,59,0,0
+2018003,wc2018-3-3,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,3,2018-06-19,Russia,Dzyuba,62,0,0
+2018003,wc2018-3-4,26,26,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,3,2018-06-19,Egypt,M. Salah,73,1,0
+2018004,wc2018-4-1,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,4,2018-06-20,Uruguay,L. Suárez,23,0,0
+2018005,wc2018-5-1,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,5,2018-06-25,Uruguay,L. Suárez,10,0,0
+2018005,wc2018-5-2,32,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,5,2018-06-25,Uruguay,Cheryshev,23,0,1
+2018005,wc2018-5-3,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,5,2018-06-25,Uruguay,E. Cavani,90,0,0
+2018006,wc2018-6-1,31,31,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,6,2018-06-25,Saudi Arabia,Salman Al-Faraj,45+6,1,0
+2018006,wc2018-6-2,31,31,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,6,2018-06-25,Saudi Arabia,Salem Al-Dawsari,90+5,0,0
+2018006,wc2018-6-3,26,26,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,6,2018-06-25,Egypt,M. Salah,22,0,0
+2018007,wc2018-7-1,27,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,7,2018-06-15,Iran,Bouhaddouz,90+5,0,1
+2018008,wc2018-8-1,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,8,2018-06-15,Portugal,Ronaldo,4,1,0
+2018008,wc2018-8-2,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,8,2018-06-15,Portugal,Ronaldo,44,0,0
+2018008,wc2018-8-3,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,8,2018-06-15,Portugal,Ronaldo,88,0,0
+2018008,wc2018-8-4,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,8,2018-06-15,Spain,Costa,24,0,0
+2018008,wc2018-8-5,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,8,2018-06-15,Spain,Costa,55,0,0
+2018008,wc2018-8-6,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,8,2018-06-15,Spain,Nacho,58,0,0
+2018009,wc2018-9-1,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,9,2018-06-20,Portugal,Ronaldo,4,0,0
+2018010,wc2018-10-1,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,10,2018-06-20,Spain,Diego Costa,54,0,0
+2018011,wc2018-11-1,27,27,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,11,2018-06-25,Iran,Karim Ansarifard,90+3,1,0
+2018011,wc2018-11-2,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,11,2018-06-25,Portugal,Quaresma,45,0,0
+2018012,wc2018-12-1,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,12,2018-06-25,Spain,Isco,19,0,0
+2018012,wc2018-12-2,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,12,2018-06-25,Spain,Iago Aspas,90+1,0,0
+2018012,wc2018-12-3,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,12,2018-06-25,Morocco,Boutaib,14,0,0
+2018012,wc2018-12-4,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,12,2018-06-25,Morocco,En-Nesyri,81,0,0
+2018013,wc2018-13-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,13,2018-06-16,France,Griezmann,58,1,0
+2018013,wc2018-13-2,33,15,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,13,2018-06-16,France,Behich,81,0,1
+2018013,wc2018-13-3,15,15,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,13,2018-06-16,Australia,Jedinak,62,1,0
+2018014,wc2018-14-1,10002,10002,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,14,2018-06-16,Denmark,Poulsen,59,0,0
+2018015,wc2018-15-1,10002,10002,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,15,2018-06-21,Denmark,Eriksen,7,0,0
+2018015,wc2018-15-2,15,15,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,15,2018-06-21,Australia,Jedinak,38,1,0
+2018016,wc2018-16-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,16,2018-06-21,France,Mbappé,34,0,0
+2018018,wc2018-18-1,10005,10005,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,18,2018-06-26,Peru,Carrillo,18,0,0
+2018018,wc2018-18-2,10005,10005,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,18,2018-06-26,Peru,Guerrero,50,0,0
+2018019,wc2018-19-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,19,2018-06-16,Argentina,Agüero,19,0,0
+2018019,wc2018-19-2,10003,10003,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,19,2018-06-16,Iceland,Finnbogason,23,0,0
+2018020,wc2018-20-1,46,10004,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,20,2018-06-16,Croatia,Etebo,32,0,1
+2018020,wc2018-20-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,20,2018-06-16,Croatia,Modrić,71,1,0
+2018021,wc2018-21-1,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,21,2018-06-21,Croatia,Rebić,53,0,0
+2018021,wc2018-21-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,21,2018-06-21,Croatia,Modrić,80,0,0
+2018021,wc2018-21-3,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,21,2018-06-21,Croatia,Rakitić,90+1,0,0
+2018022,wc2018-22-1,10004,10004,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,22,2018-06-22,Nigeria,Musa,49,0,0
+2018022,wc2018-22-2,10004,10004,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,22,2018-06-22,Nigeria,Musa,75,0,0
+2018023,wc2018-23-1,10004,10004,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,23,2018-06-26,Nigeria,Moses,51,1,0
+2018023,wc2018-23-2,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,23,2018-06-26,Argentina,Messi,14,0,0
+2018023,wc2018-23-3,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,23,2018-06-26,Argentina,Marcos Rojo,86,0,0
+2018024,wc2018-24-1,10003,10003,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,24,2018-06-26,Iceland,G. Sigurðsson,76,1,0
+2018024,wc2018-24-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,24,2018-06-26,Croatia,Badelj,53,0,0
+2018024,wc2018-24-3,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,24,2018-06-26,Croatia,Perišić,90,0,0
+2018025,wc2018-25-1,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,25,2018-06-17,Serbia,Kolarov,56,0,0
+2018026,wc2018-26-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,26,2018-06-17,Brazil,Coutinho,20,0,0
+2018026,wc2018-26-2,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,26,2018-06-17,Switzerland,Zuber,50,0,0
+2018027,wc2018-27-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,27,2018-06-22,Brazil,P. Coutinho,90+1,0,0
+2018027,wc2018-27-2,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,27,2018-06-22,Brazil,Neymar Jr,90+7,0,0
+2018028,wc2018-28-1,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,28,2018-06-22,Serbia,Mitrović,5,0,0
+2018028,wc2018-28-2,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,28,2018-06-22,Switzerland,Xhaka,52,0,0
+2018028,wc2018-28-3,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,28,2018-06-22,Switzerland,Shaqiri,90,0,0
+2018029,wc2018-29-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,29,2018-06-27,Brazil,Paulinho,36,0,0
+2018029,wc2018-29-2,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,29,2018-06-27,Brazil,Thiago Silva,68,0,0
+2018030,wc2018-30-1,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,30,2018-06-27,Switzerland,Džemaili,31,0,0
+2018030,wc2018-30-2,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,30,2018-06-27,Switzerland,Drmić,88,0,0
+2018030,wc2018-30-3,10001,10001,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,30,2018-06-27,Costa Rica,Waston,56,0,0
+2018030,wc2018-30-4,10001,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,30,2018-06-27,Costa Rica,Sommer,90+3,0,1
+2018031,wc2018-31-1,1,1,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,31,2018-06-17,Mexico,Lozano,35,0,0
+2018032,wc2018-32-1,23,23,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,32,2018-06-18,Sweden,Granqvist,65,1,0
+2018033,wc2018-33-1,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,33,2018-06-23,South Korea,Son Heung-min,90+3,0,0
+2018033,wc2018-33-2,1,1,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,33,2018-06-23,Mexico,Carlos Vela,26,1,0
+2018033,wc2018-33-3,1,1,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,33,2018-06-23,Mexico,J. Hernández,66,0,0
+2018034,wc2018-34-1,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,34,2018-06-23,Germany,Reus,48,0,0
+2018034,wc2018-34-2,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,34,2018-06-23,Germany,Kroos,90+5,0,0
+2018034,wc2018-34-3,23,23,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,34,2018-06-23,Sweden,Toivonen,32,0,0
+2018035,wc2018-35-1,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,35,2018-06-27,South Korea,Kim Young-gwon,90+2,0,0
+2018035,wc2018-35-2,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,35,2018-06-27,South Korea,Son Heung-min,90+6,0,0
+2018036,wc2018-36-1,23,23,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,36,2018-06-27,Sweden,Augustinsson,50,0,0
+2018036,wc2018-36-2,23,23,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,36,2018-06-27,Sweden,Granqvist,62,1,0
+2018036,wc2018-36-3,23,1,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,36,2018-06-27,Sweden,Álvarez,74,0,1
+2018037,wc2018-37-1,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,37,2018-06-18,Belgium,Mertens,47,0,0
+2018037,wc2018-37-2,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,37,2018-06-18,Belgium,Lukaku,69,0,0
+2018037,wc2018-37-3,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,37,2018-06-18,Belgium,Lukaku,75,0,0
+2018038,wc2018-38-1,24,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,38,2018-06-18,Tunisia,Sassi,35,1,0
+2018038,wc2018-38-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,38,2018-06-18,England,Kane,11,0,0
+2018038,wc2018-38-3,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,38,2018-06-18,England,Kane,90+1,0,0
+2018039,wc2018-39-1,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Belgium,E. Hazard,6,1,0
+2018039,wc2018-39-2,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Belgium,R. Lukaku,16,0,0
+2018039,wc2018-39-3,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Belgium,R. Lukaku,45+3,0,0
+2018039,wc2018-39-4,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Belgium,E. Hazard,51,0,0
+2018039,wc2018-39-5,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Belgium,Batshuayi,90,0,0
+2018039,wc2018-39-6,24,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Tunisia,Bronn,18,0,0
+2018039,wc2018-39-7,24,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,39,2018-06-23,Tunisia,Khazri,90+3,0,0
+2018040,wc2018-40-1,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,England,Stones,8,0,0
+2018040,wc2018-40-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,England,Kane,22,1,0
+2018040,wc2018-40-3,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,England,Lingard,36,0,0
+2018040,wc2018-40-4,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,England,Stones,40,0,0
+2018040,wc2018-40-5,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,England,Kane,45+1,1,0
+2018040,wc2018-40-6,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,England,Kane,62,0,0
+2018040,wc2018-40-7,48,48,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,40,2018-06-24,Panama,Baloy,78,0,0
+2018041,wc2018-41-1,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,41,2018-06-28,Belgium,Adnan Januzaj,51,0,0
+2018042,wc2018-42-1,48,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,42,2018-06-28,Panama,Yassine Meriah,33,0,1
+2018042,wc2018-42-2,24,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,42,2018-06-28,Tunisia,Fakhereedine Ben Youssef,51,0,0
+2018042,wc2018-42-3,24,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,42,2018-06-28,Tunisia,Wahbi Khazri,66,0,0
+2018043,wc2018-43-1,44,44,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,43,2018-06-19,Colombia,J. Quintero,39,0,0
+2018043,wc2018-43-2,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,43,2018-06-19,Japan,Kagawa,6,1,0
+2018043,wc2018-43-3,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,43,2018-06-19,Japan,Osako,73,0,0
+2018044,wc2018-44-1,10006,10006,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,44,2018-06-19,Poland,Krychowiak,86,0,0
+2018044,wc2018-44-2,34,10006,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,44,2018-06-19,Senegal,Cionek,37,0,1
+2018044,wc2018-44-3,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,44,2018-06-19,Senegal,Niang,60,0,0
+2018045,wc2018-45-1,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,45,2018-06-24,Japan,Inui,34,0,0
+2018045,wc2018-45-2,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,45,2018-06-24,Japan,Honda,78,0,0
+2018045,wc2018-45-3,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,45,2018-06-24,Senegal,Mané,11,0,0
+2018045,wc2018-45-4,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,45,2018-06-24,Senegal,M. Wagué,71,0,0
+2018046,wc2018-46-1,44,44,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,46,2018-06-24,Colombia,Y. Mina,40,0,0
+2018046,wc2018-46-2,44,44,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,46,2018-06-24,Colombia,Falcao,70,0,0
+2018046,wc2018-46-3,44,44,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,46,2018-06-24,Colombia,Cuadrado,75,0,0
+2018047,wc2018-47-1,10006,10006,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,47,2018-06-28,Poland,Bednarek,59,0,0
+2018048,wc2018-48-1,44,44,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,48,2018-06-28,Colombia,Y. Mina,74,0,0
+2018049,wc2018-49-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,France,Antoine Griezmann,13,1,0
+2018049,wc2018-49-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,France,Benjamin Pavard,57,0,0
+2018049,wc2018-49-3,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,France,Kylian Mbappé,64,0,0
+2018049,wc2018-49-4,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,France,Kylian Mbappé,68,0,0
+2018049,wc2018-49-5,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,Argentina,Ángel Di María,41,0,0
+2018049,wc2018-49-6,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,Argentina,Gabriel Mercado,48,0,0
+2018049,wc2018-49-7,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,49,2018-06-30,Argentina,Sergio Agüero,90+3,0,0
+2018050,wc2018-50-1,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,50,2018-06-30,Uruguay,Edinson Cavani,7,0,0
+2018050,wc2018-50-2,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,50,2018-06-30,Uruguay,Edinson Cavani,62,0,0
+2018050,wc2018-50-3,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,50,2018-06-30,Portugal,Pepe,55,0,0
+2018051,wc2018-51-1,29,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,51,2018-07-01,Spain,Sergei Ignashevich,12,0,1
+2018051,wc2018-51-2,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,51,2018-07-01,Russia,Artem Dzyuba,41,1,0
+2018052,wc2018-52-1,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,52,2018-07-01,Croatia,Mario Mandžukić,4,0,0
+2018052,wc2018-52-2,10002,10002,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,52,2018-07-01,Denmark,Mathias Jørgensen,1,0,0
+2018053,wc2018-53-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,53,2018-07-02,Brazil,Neymar,51,0,0
+2018053,wc2018-53-2,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,53,2018-07-02,Brazil,Roberto Firmino,88,0,0
+2018054,wc2018-54-1,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,54,2018-07-02,Belgium,Jan Vertonghen,69,0,0
+2018054,wc2018-54-2,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,54,2018-07-02,Belgium,Marouane Fellaini,74,0,0
+2018054,wc2018-54-3,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,54,2018-07-02,Belgium,Nacer Chadli,90+4,0,0
+2018054,wc2018-54-4,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,54,2018-07-02,Japan,Genki Haraguchi,48,0,0
+2018054,wc2018-54-5,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,54,2018-07-02,Japan,Takashi Inui,52,0,0
+2018055,wc2018-55-1,23,23,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,55,2018-07-03,Sweden,Emil Forsberg,66,0,0
+2018056,wc2018-56-1,44,44,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,56,2018-07-03,Colombia,Yerry Mina,90+3,0,0
+2018056,wc2018-56-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,56,2018-07-03,England,Harry Kane,57,1,0
+2018057,wc2018-57-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,57,2018-07-06,France,Raphaël Varane,40,0,0
+2018057,wc2018-57-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,57,2018-07-06,France,Antoine Griezmann,61,0,0
+2018058,wc2018-58-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,58,2018-07-06,Brazil,Renato Augusto,76,0,0
+2018058,wc2018-58-2,25,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,58,2018-07-06,Belgium,Fernandinho,13,0,1
+2018058,wc2018-58-3,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,58,2018-07-06,Belgium,Kevin De Bruyne,31,0,0
+2018059,wc2018-59-1,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,59,2018-07-07,England,Harry Maguire,30,0,0
+2018059,wc2018-59-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,59,2018-07-07,England,Dele Alli,58,0,0
+2018060,wc2018-60-1,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,60,2018-07-07,Russia,Denis Cheryshev,31,0,0
+2018060,wc2018-60-2,10007,10007,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,60,2018-07-07,Russia,Mário Figueira Fernandes,115,0,0
+2018060,wc2018-60-3,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,60,2018-07-07,Croatia,Andrej Kramarić,39,0,0
+2018060,wc2018-60-4,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,60,2018-07-07,Croatia,Domagoj Vida,100,0,0
+2018061,wc2018-61-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,61,2018-07-10,France,Samuel Umtiti,51,0,0
+2018062,wc2018-62-1,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,62,2018-07-11,Croatia,Ivan Perišić,68,0,0
+2018062,wc2018-62-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,62,2018-07-11,Croatia,Mario Mandžukić,109,0,0
+2018062,wc2018-62-3,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,62,2018-07-11,England,Kieran Trippier,5,0,0
+2018063,wc2018-63-1,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,63,2018-07-14,Belgium,Thomas Meunier,4,0,0
+2018063,wc2018-63-2,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,63,2018-07-14,Belgium,Eden Hazard,82,0,0
+2018064,wc2018-64-1,33,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,64,2018-07-15,France,Mandžukić,18,0,1
+2018064,wc2018-64-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,64,2018-07-15,France,Griezmann,38,1,0
+2018064,wc2018-64-3,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,64,2018-07-15,France,Pogba,59,0,0
+2018064,wc2018-64-4,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,64,2018-07-15,France,Mbappé,65,0,0
+2018064,wc2018-64-5,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,64,2018-07-15,Croatia,Perišić,28,0,0
+2018064,wc2018-64-6,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json,2018,64,2018-07-15,Croatia,Mandžukić,69,0,0
+2022001,wc2022-1-1,20,20,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,1,2022-11-20,Ecuador,Enner Valencia,16,1,0
+2022001,wc2022-1-2,20,20,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,1,2022-11-20,Ecuador,Enner Valencia,31,0,0
+2022002,wc2022-2-1,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,2,2022-11-21,Netherlands,Cody Gakpo,84,0,0
+2022002,wc2022-2-2,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,2,2022-11-21,Netherlands,Davy Klaassen,90+9,0,0
+2022003,wc2022-3-1,7,7,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,3,2022-11-25,Qatar,Mohammed Muntari,78,0,0
+2022003,wc2022-3-2,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,3,2022-11-25,Senegal,Boulaye Dia,41,0,0
+2022003,wc2022-3-3,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,3,2022-11-25,Senegal,Famara Diédhiou,48,0,0
+2022003,wc2022-3-4,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,3,2022-11-25,Senegal,Bamba Dieng,84,0,0
+2022004,wc2022-4-1,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,4,2022-11-25,Netherlands,Cody Gakpo,6,0,0
+2022004,wc2022-4-2,20,20,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,4,2022-11-25,Ecuador,Enner Valencia,49,0,0
+2022005,wc2022-5-1,20,20,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,5,2022-11-29,Ecuador,Moisés Caicedo,67,0,0
+2022005,wc2022-5-2,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,5,2022-11-29,Senegal,Ismaila Sarr,44,1,0
+2022005,wc2022-5-3,34,34,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,5,2022-11-29,Senegal,Koulibaly,70,0,0
+2022006,wc2022-6-1,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,6,2022-11-29,Netherlands,Cody Gakpo,26,0,0
+2022006,wc2022-6-2,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,6,2022-11-29,Netherlands,Frenkie de Jong,49,0,0
+2022007,wc2022-7-1,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,England,Jude Bellingham,35,0,0
+2022007,wc2022-7-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,England,Bukayo Saka,43,0,0
+2022007,wc2022-7-3,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,England,Raheem Sterling,45+1,0,0
+2022007,wc2022-7-4,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,England,Bukayo Saka,62,0,0
+2022007,wc2022-7-5,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,England,Marcus Rashford,71,0,0
+2022007,wc2022-7-6,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,England,Jack Grealish,90,0,0
+2022007,wc2022-7-7,27,27,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,Iran,Mehdi Taremi,65,0,0
+2022007,wc2022-7-8,27,27,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,7,2022-11-21,Iran,Mehdi Taremi,90+13,1,0
+2022008,wc2022-8-1,13,13,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,8,2022-11-21,USA,Timothy Weah,36,0,0
+2022008,wc2022-8-2,10009,10009,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,8,2022-11-21,Wales,Gareth Bale,82,1,0
+2022009,wc2022-9-1,27,27,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,9,2022-11-25,Iran,Roozbeh Cheshmi,90+8,0,0
+2022009,wc2022-9-2,27,27,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,9,2022-11-25,Iran,Ramin Rezaeian,90+11,0,0
+2022011,wc2022-11-1,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,11,2022-11-29,England,Rashford,50,0,0
+2022011,wc2022-11-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,11,2022-11-29,England,Foden,51,0,0
+2022011,wc2022-11-3,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,11,2022-11-29,England,Rashford,68,0,0
+2022012,wc2022-12-1,13,13,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,12,2022-11-29,USA,Pulisic,38,0,0
+2022013,wc2022-13-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,13,2022-11-22,Argentina,Lionel Messi,10,1,0
+2022013,wc2022-13-2,31,31,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,13,2022-11-22,Saudi Arabia,Saleh Al Shehri,48,0,0
+2022013,wc2022-13-3,31,31,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,13,2022-11-22,Saudi Arabia,Salem Al Dawsari,53,0,0
+2022015,wc2022-15-1,10006,10006,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,15,2022-11-26,Poland,Piotr Zielinski,39,0,0
+2022015,wc2022-15-2,10006,10006,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,15,2022-11-26,Poland,Robert Lewandowski,82,0,0
+2022016,wc2022-16-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,16,2022-11-26,Argentina,Lionel Messi,64,0,0
+2022016,wc2022-16-2,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,16,2022-11-26,Argentina,Enzo Fernández,87,0,0
+2022017,wc2022-17-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,17,2022-11-30,Argentina,Mac Allister,46,0,0
+2022017,wc2022-17-2,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,17,2022-11-30,Argentina,Julián Álvarez,67,0,0
+2022018,wc2022-18-1,31,31,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,18,2022-11-30,Saudi Arabia,Salem Al Dawasari,90+5,0,0
+2022018,wc2022-18-2,1,1,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,18,2022-11-30,Mexico,Henry Martín,47,0,0
+2022018,wc2022-18-3,1,1,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,18,2022-11-30,Mexico,Luis Chávez,52,0,0
+2022020,wc2022-20-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,20,2022-11-22,France,Adrien Rabiot,27,0,0
+2022020,wc2022-20-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,20,2022-11-22,France,Olivier Giroud,32,0,0
+2022020,wc2022-20-3,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,20,2022-11-22,France,Kylian Mbappé,68,0,0
+2022020,wc2022-20-4,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,20,2022-11-22,France,Olivier Giroud,71,0,0
+2022020,wc2022-20-5,15,15,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,20,2022-11-22,Australia,Craig Goodwin,9,0,0
+2022021,wc2022-21-1,15,15,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,21,2022-11-26,Australia,Mitchell Duke,23,0,0
+2022022,wc2022-22-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,22,2022-11-26,France,Kylian Mbappé,61,0,0
+2022022,wc2022-22-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,22,2022-11-26,France,Kylian Mbappé,86,0,0
+2022022,wc2022-22-3,10002,10002,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,22,2022-11-26,Denmark,Andreas Christensen,68,0,0
+2022023,wc2022-23-1,15,15,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,23,2022-11-30,Australia,Mathew Leckie,60,0,0
+2022024,wc2022-24-1,24,24,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,24,2022-11-30,Tunisia,Wahbi Khazri,58,0,0
+2022025,wc2022-25-1,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,25,2022-11-23,Germany,Ilkay Gündogan,33,1,0
+2022025,wc2022-25-2,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,25,2022-11-23,Japan,Ritsu Doan,75,0,0
+2022025,wc2022-25-3,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,25,2022-11-23,Japan,Takuma Asano,83,0,0
+2022026,wc2022-26-1,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Dani Olmo,11,0,0
+2022026,wc2022-26-2,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Marco Asensio,21,0,0
+2022026,wc2022-26-3,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Ferran Torres,31,1,0
+2022026,wc2022-26-4,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Ferran Torres,54,0,0
+2022026,wc2022-26-5,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Gavi,74,0,0
+2022026,wc2022-26-6,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Carlos Soler,90,0,0
+2022026,wc2022-26-7,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,26,2022-11-23,Spain,Álvaro Morata,90+2,0,0
+2022027,wc2022-27-1,10001,10001,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,27,2022-11-27,Costa Rica,Keysher Fuller,81,0,0
+2022028,wc2022-28-1,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,28,2022-11-27,Spain,Álvaro Morata,62,0,0
+2022028,wc2022-28-2,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,28,2022-11-27,Germany,Niclas Füllkrug,83,0,0
+2022029,wc2022-29-1,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,29,2022-12-01,Japan,Ritsu Dōan,48,0,0
+2022029,wc2022-29-2,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,29,2022-12-01,Japan,Ao Tanaka,51,0,0
+2022029,wc2022-29-3,29,29,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,29,2022-12-01,Spain,Álvaro Morata,11,0,0
+2022030,wc2022-30-1,10001,10001,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,30,2022-12-01,Costa Rica,Yeltsin Tejeda,58,0,0
+2022030,wc2022-30-2,10001,10001,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,30,2022-12-01,Costa Rica,Juan Vargas,70,0,0
+2022030,wc2022-30-3,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,30,2022-12-01,Germany,Serge Gnabry,10,0,0
+2022030,wc2022-30-4,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,30,2022-12-01,Germany,Kai Lukas Havertz,73,0,0
+2022030,wc2022-30-5,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,30,2022-12-01,Germany,Kai Lukas Havertz,85,0,0
+2022030,wc2022-30-6,17,17,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,30,2022-12-01,Germany,Niclas Füllkrug,89,0,0
+2022032,wc2022-32-1,25,25,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,32,2022-11-23,Belgium,Michy Batshuayi,44,0,0
+2022033,wc2022-33-1,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,33,2022-11-27,Morocco,Romain Saïss,73,0,0
+2022033,wc2022-33-2,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,33,2022-11-27,Morocco,Zakaria Aboukhlal,90+2,0,0
+2022034,wc2022-34-1,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,34,2022-11-27,Croatia,Andrej Kramarić,36,0,0
+2022034,wc2022-34-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,34,2022-11-27,Croatia,Marko Livaja,44,0,0
+2022034,wc2022-34-3,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,34,2022-11-27,Croatia,Andrej Kramarić,70,0,0
+2022034,wc2022-34-4,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,34,2022-11-27,Croatia,Lovro Majer,90+4,0,0
+2022034,wc2022-34-5,5,5,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,34,2022-11-27,Canada,Alphonso Davies,2,0,0
+2022036,wc2022-36-1,5,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,36,2022-12-01,Canada,Nayef Aguerd,40,0,1
+2022036,wc2022-36-2,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,36,2022-12-01,Morocco,Hakim Zyiech,4,0,0
+2022036,wc2022-36-3,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,36,2022-12-01,Morocco,Youssef En-Nesyri,23,0,0
+2022037,wc2022-37-1,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,37,2022-11-24,Switzerland,Breel Embolo,48,0,0
+2022038,wc2022-38-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,38,2022-11-24,Brazil,Richarlison,62,0,0
+2022038,wc2022-38-2,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,38,2022-11-24,Brazil,Richarlison,73,0,0
+2022039,wc2022-39-1,10000,10000,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,39,2022-11-28,Cameroon,Jean-Charles Castelletto,29,0,0
+2022039,wc2022-39-2,10000,10000,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,39,2022-11-28,Cameroon,Vincent Aboubakar,63,0,0
+2022039,wc2022-39-3,10000,10000,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,39,2022-11-28,Cameroon,Jean-Eric Choupo-Moting,66,0,0
+2022039,wc2022-39-4,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,39,2022-11-28,Serbia,Strahinja Pavlović,45+1,0,0
+2022039,wc2022-39-5,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,39,2022-11-28,Serbia,Sergej Milinković-Savić,45+3,0,0
+2022039,wc2022-39-6,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,39,2022-11-28,Serbia,Aleksandar Mitrović,53,0,0
+2022040,wc2022-40-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,40,2022-11-28,Brazil,Casemiro,83,0,0
+2022041,wc2022-41-1,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,41,2022-12-02,Serbia,Aleksandar Mitrović,26,0,0
+2022041,wc2022-41-2,10008,10008,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,41,2022-12-02,Serbia,Dušan Vlahović,35,0,0
+2022041,wc2022-41-3,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,41,2022-12-02,Switzerland,Xherdan Shaqiri,20,0,0
+2022041,wc2022-41-4,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,41,2022-12-02,Switzerland,Breel Embolo,44,0,0
+2022041,wc2022-41-5,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,41,2022-12-02,Switzerland,Freuler,48,0,0
+2022042,wc2022-42-1,10000,10000,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,42,2022-12-02,Cameroon,Vincent Aboubakar,90+2,0,0
+2022044,wc2022-44-1,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,44,2022-11-24,Portugal,Cristiano Ronaldo,65,1,0
+2022044,wc2022-44-2,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,44,2022-11-24,Portugal,João Félix,78,0,0
+2022044,wc2022-44-3,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,44,2022-11-24,Portugal,Rafael Leão,80,0,0
+2022044,wc2022-44-4,47,47,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,44,2022-11-24,Ghana,André Ayew,73,0,0
+2022044,wc2022-44-5,47,47,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,44,2022-11-24,Ghana,Osman Bukari,89,0,0
+2022045,wc2022-45-1,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,45,2022-11-28,South Korea,Cho Gue-sung,58,0,0
+2022045,wc2022-45-2,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,45,2022-11-28,South Korea,Cho Gue-sung,61,0,0
+2022045,wc2022-45-3,47,47,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,45,2022-11-28,Ghana,Mohammed Salisu,24,0,0
+2022045,wc2022-45-4,47,47,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,45,2022-11-28,Ghana,Mohammed Kudus,34,0,0
+2022045,wc2022-45-5,47,47,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,45,2022-11-28,Ghana,Mohammed Kudus,68,0,0
+2022046,wc2022-46-1,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,46,2022-11-28,Portugal,Bruno Fernandes,54,0,0
+2022046,wc2022-46-2,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,46,2022-11-28,Portugal,Bruno Fernandes,90+3,1,0
+2022047,wc2022-47-1,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,47,2022-12-02,Uruguay,Giorgian De Arrascaeta,26,0,0
+2022047,wc2022-47-2,32,32,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,47,2022-12-02,Uruguay,Giorgian De Arrascaeta,32,0,0
+2022048,wc2022-48-1,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,48,2022-12-02,South Korea,Kim Young-gwon,27,0,0
+2022048,wc2022-48-2,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,48,2022-12-02,South Korea,Hwang Hee-chan,90+1,0,0
+2022048,wc2022-48-3,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,48,2022-12-02,Portugal,Ricardo Horta,5,0,0
+2022049,wc2022-49-1,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,49,2022-12-03,Netherlands,Memphis Depay,10,0,0
+2022049,wc2022-49-2,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,49,2022-12-03,Netherlands,Daley Blind,45+1,0,0
+2022049,wc2022-49-3,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,49,2022-12-03,Netherlands,Denzel Dumfries,81,0,0
+2022049,wc2022-49-4,13,13,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,49,2022-12-03,USA,Haji Wright,76,0,0
+2022050,wc2022-50-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,50,2022-12-03,Argentina,Lionel Messi,35,0,0
+2022050,wc2022-50-2,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,50,2022-12-03,Argentina,Julián Álvarez,57,0,0
+2022050,wc2022-50-3,15,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,50,2022-12-03,Australia,Enzo Fernández,77,0,1
+2022051,wc2022-51-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,51,2022-12-04,France,Olivier Giroud,44,0,0
+2022051,wc2022-51-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,51,2022-12-04,France,Mbappé,74,0,0
+2022051,wc2022-51-3,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,51,2022-12-04,France,Mbappé,90+1,0,0
+2022051,wc2022-51-4,10006,10006,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,51,2022-12-04,Poland,Robert Lewandowski,90+9,1,0
+2022052,wc2022-52-1,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,52,2022-12-04,England,Jordan Henderson,38,0,0
+2022052,wc2022-52-2,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,52,2022-12-04,England,Harry Kane,45+3,0,0
+2022052,wc2022-52-3,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,52,2022-12-04,England,Bukayo Saka,57,0,0
+2022053,wc2022-53-1,22,22,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,53,2022-12-05,Japan,Daizen Maeda,43,0,0
+2022053,wc2022-53-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,53,2022-12-05,Croatia,Ivan Perišić,55,0,0
+2022054,wc2022-54-1,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,54,2022-12-05,Brazil,Vinícius Jr.,7,0,0
+2022054,wc2022-54-2,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,54,2022-12-05,Brazil,Neymar,13,1,0
+2022054,wc2022-54-3,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,54,2022-12-05,Brazil,Richarlison,29,0,0
+2022054,wc2022-54-4,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,54,2022-12-05,Brazil,Lucas Paquetá,36,0,0
+2022054,wc2022-54-5,3,3,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,54,2022-12-05,South Korea,Paik Seung-ho,76,0,0
+2022056,wc2022-56-1,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Portugal,Gonçalo Ramos,17,0,0
+2022056,wc2022-56-2,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Portugal,Pepe,33,0,0
+2022056,wc2022-56-3,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Portugal,Gonçalo Ramos,51,0,0
+2022056,wc2022-56-4,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Portugal,Raphaël Guerreiro,55,0,0
+2022056,wc2022-56-5,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Portugal,Gonçalo Ramos,67,0,0
+2022056,wc2022-56-6,41,41,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Portugal,Rafael Leão,90+2,0,0
+2022056,wc2022-56-7,8,8,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,56,2022-12-06,Switzerland,Manuel Akanji,58,0,0
+2022057,wc2022-57-1,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,57,2022-12-09,Croatia,Bruno Petković,117,0,0
+2022057,wc2022-57-2,9,9,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,57,2022-12-09,Brazil,Neymar,105+1,0,0
+2022058,wc2022-58-1,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,58,2022-12-09,Netherlands,Wout Werghost,83,0,0
+2022058,wc2022-58-2,21,21,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,58,2022-12-09,Netherlands,Wout Werghost,90+11,0,0
+2022058,wc2022-58-3,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,58,2022-12-09,Argentina,Nahuel Molina,35,0,0
+2022058,wc2022-58-4,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,58,2022-12-09,Argentina,Lionel Messi,73,1,0
+2022059,wc2022-59-1,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,59,2022-12-10,Morocco,Youssef En-Nesyri,42,0,0
+2022060,wc2022-60-1,45,45,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,60,2022-12-10,England,Harry Kane,54,1,0
+2022060,wc2022-60-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,60,2022-12-10,France,Aurelién Tchouaméni,17,0,0
+2022060,wc2022-60-3,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,60,2022-12-10,France,Olivier Giroud,78,0,0
+2022061,wc2022-61-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,61,2022-12-13,Argentina,Lionel Messi,34,1,0
+2022061,wc2022-61-2,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,61,2022-12-13,Argentina,Julián Álvarez,39,0,0
+2022061,wc2022-61-3,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,61,2022-12-13,Argentina,Julián Álvarez,69,0,0
+2022062,wc2022-62-1,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,62,2022-12-14,France,Théo Hernandez,5,0,0
+2022062,wc2022-62-2,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,62,2022-12-14,France,Kolo Muani,79,0,0
+2022063,wc2022-63-1,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,63,2022-12-17,Croatia,Joško Gvardiol,7,0,0
+2022063,wc2022-63-2,46,46,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,63,2022-12-17,Croatia,Mislav Oršić,42,0,0
+2022063,wc2022-63-3,10,10,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,63,2022-12-17,Morocco,Achraf Dari,9,0,0
+2022064,wc2022-64-1,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,64,2022-12-18,Argentina,Lionel Messi,23,1,0
+2022064,wc2022-64-2,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,64,2022-12-18,Argentina,Ángel Di María,36,0,0
+2022064,wc2022-64-3,37,37,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,64,2022-12-18,Argentina,Lionel Messi,108,0,0
+2022064,wc2022-64-4,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,64,2022-12-18,France,Kylian Mbappé,80,1,0
+2022064,wc2022-64-5,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,64,2022-12-18,France,Kylian Mbappé,81,0,0
+2022064,wc2022-64-6,33,33,,unresolved_source_name,https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json,2022,64,2022-12-18,France,Kylian Mbappé,118,1,0

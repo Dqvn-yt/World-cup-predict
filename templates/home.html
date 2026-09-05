@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Football Analytics AI{% endblock %}
+{% block content %}
+<section class="hero section-shell">
+  <div class="eyebrow">Player intelligence / Match modelling</div>
+  <h1>Read the form.<br><em>Predict the game.</em></h1>
+  <p>Position-aware player ratings, Poisson score forecasts and player goal probabilities built from one leak-safe football data pipeline.</p>
+  <div class="hero-actions">
+    <a class="button button-primary" href="{{ url_for('predict_match_page') }}">Predict a match</a>
+    <a class="button button-ghost" href="{{ url_for('models_page') }}">Inspect the models</a>
+  </div>
+</section>
+
+<section class="section-shell feature-grid">
+  <article class="prediction-card card card-accent">
+    <div class="card-label">Featured forecast / 90 minutes</div>
+    <div class="versus">
+      <strong>{{ prediction.home_team_name }}</strong>
+      <div class="score">{{ prediction.predicted_home_goals }}<span>:</span>{{ prediction.predicted_away_goals }}</div>
+      <strong>{{ prediction.away_team_name }}</strong>
+    </div>
+    <div class="xg-line"><span>xG {{ prediction.lambda_home|num }}</span><span>xG {{ prediction.lambda_away|num }}</span></div>
+    <div class="probability-strip">
+      <span style="--share: {{ prediction.home_win_probability * 100 }}%">H {{ prediction.home_win_probability|pct }}</span>
+      <span style="--share: {{ prediction.draw_probability * 100 }}%">D {{ prediction.draw_probability|pct }}</span>
+      <span style="--share: {{ prediction.away_win_probability * 100 }}%">A {{ prediction.away_win_probability|pct }}</span>
+    </div>
+    <a class="text-link" href="{{ url_for('match_detail', match_id=prediction.match_id) }}">Full prediction →</a>
+  </article>
+  <article class="card">
+    <div class="card-label">Three connected algorithms</div>
+    <ol class="model-flow">
+      <li><b>01</b><span>Position-aware form scoring</span></li>
+      <li><b>02</b><span>Poisson score regression</span></li>
+      <li><b>03</b><span>Logistic goal probability</span></li>
+    </ol>
+  </article>
+</section>
+
+<section class="section-shell split-section">
+  <div>
+    <div class="section-heading"><div><span class="eyebrow">Leaderboard</span><h2>Players in form</h2></div><a class="text-link" href="{{ url_for('form_leaderboard') }}">View all →</a></div>
+    <div class="ranking-list">
+      {% for player in top_players %}
+      <a href="{{ url_for('player_detail', player_id=player.player_id) }}" class="ranking-row">
+        <span class="rank">{{ "%02d"|format(loop.index) }}</span>
+        <span><strong>{{ player.player_name }}</strong><small>{{ player.position }} · Team {{ player.team_id }}</small></span>
+        <span class="form-pill">{{ player.form_score|num(1) }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <div class="section-heading"><div><span class="eyebrow">Featured match</span><h2>Goal threats</h2></div><a class="text-link" href="{{ url_for('predict_goals_page', match_id=prediction.match_id) }}">Explore →</a></div>
+    <div class="threat-list">
+      {% for player in threats %}
+      <div class="threat-row"><span>{{ player.player_name }}<small>{{ player.position }}</small></span><strong>{{ player.goal_probability|pct }}</strong></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}
